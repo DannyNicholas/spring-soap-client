@@ -24,7 +24,7 @@ public class Application {
 			}
 			
 			GetCityForecastByZIPResponse response = weatherClient.getCityForecastByZip(zipCode);
-			weatherClient.printResponse( response);
+			weatherClient.printResponse(response);
 		};
 	}
 
